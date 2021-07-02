@@ -1,0 +1,114 @@
+.tashak{
+padding-bottom: 30px;
+}
+.buttonss-1{
+  position: relative; 
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5px;
+  width: 270px;
+  height: 70px;
+  background-color:  #D44638;
+  border-color:  #D44638;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.buttonss-1 .secondfirst-span{
+  font-size: 20px;
+  float: left;
+  margin-left: 20px;
+}
+.buttonss-1 .second-span{
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 3px;
+}
+.buttonss-2{
+  position: relative; 
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5px;
+  width: 270px;
+  height: 70px;
+  background:transparent;
+  border: 1px solid gray;
+  color: gray;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.buttonss-2 .secondsec-span{
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin-left: 20px;
+}
+.buttonss-2 .second-span{
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 3px;
+}
+/**button3*/
+.buttonss-3{
+  position: relative; 
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5px;
+  width: 270px;
+  height: 70px;
+  background-color: #3b5998;
+  border-color: #3b5998;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.buttonss-3 .secondthird-span{
+  font-size: 20px;
+  float: left;
+  margin-left: 20px;
+}
+.buttonss-3 .second-span{
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 3px;
+}
+/**button4*/
+.buttonss-4{
+  position: relative; 
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5px;
+  width: 270px;
+  height: 70px;
+  background-color: #1DA1F2;
+  border-color: #1DA1F2;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.buttonss-4 .secondforth-span{
+  font-size: 20px;
+  float: left;
+  margin-left: 20px;
+}
+.buttonss-4 .second-span{
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 3px;
+}
+.mb{
+  margin-top: 84px;
+}
+@media only screen and (max-width:660px){
+  .buttonss-1{
+    top: 45%;
+  }
+  .buttonss-2{
+    top:60%;
+  }
+}

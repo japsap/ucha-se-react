@@ -1,0 +1,196 @@
+body {
+  font-family: 'Poppins';
+}
+
+.textovo-pole h2 {
+    margin-top: 120px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.textovo-pole p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    font-size: 20px;
+    color: gray;
+}
+.textovo-pole p button{
+  color: #9ebe2b;
+  margin-left: 5px;
+  font-size: 15px;
+}
+.first {
+    margin-top: -120px;
+}
+
+.tashak{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.step-indicator {
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.step-indicator .step-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #c2c2c2;
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.step.active .step-icon {
+    background: #9ebe2b;
+}
+
+.step p {
+    text-align: center;
+    position: absolute;
+    bottom: -45px;
+    color: #c2c2c2;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.step.active p {
+    color: #9ebe2b;
+}
+
+.step.step2 p,
+.step.step3 p {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.indicator-line {
+    width: 100%;
+    height: 2px;
+    background: #c2c2c2;
+    flex: 1;
+}
+
+.indicator-line.active {
+    background: #9ebe2b;
+}
+.cardBox {
+    float: left;
+    font-size: 1.2em;
+    margin: 1% 0 0 1%;
+    perspective: 800px;
+    transition: all 0.3s ease 0s;
+    width: 20.7%;
+  }
+  .card-1 {
+    position: relative;
+    border-radius: 2em;
+    background: #f1f1f1;
+    cursor: default;
+    height: 300px;
+    width: 100%;
+    border: 1px solid transparent;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  }
+.card-1:active{
+  border-color: #9ebe2b;
+}
+.card-1:hover{
+  border-color: #9ebe2b;
+  border: 2px solid #FCEA8C;
+}
+ .img-dlu{
+   height: 200px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+   width: 200px;
+ } 
+.name-text{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top:80%;
+}
+ @media only screen and (min-width: 900px) and (max-width:400000px) {
+  .mobile{
+    display: none;
+  }
+ }
+  @media screen and (max-width: 899px) {
+    .cardBox {
+      margin-left: 2.8%;
+      margin-top: 3%;
+      width: 46%;
+    }
+    .card {
+      height: 285px;
+    }
+    .cardBox:last-child {
+      margin-bottom: 3%;
+    }
+    .pc{
+      display: none;
+    }
+  }
+  @media screen and (min-width: 480px) and (max-width:899px){
+    .containerrrr{
+      margin-top: 600px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .cardBox {
+      width: 95%;
+    }
+    .card {
+      height: 260px;
+    }
+    .containerrrr{
+      margin-top: 1300px;
+    }
+    .textovo-pole h2{
+      text-align: center;
+    }
+    .textovo-pole p{
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .step p {
+        font-size: 11px;
+        bottom: -40px;
+    }
+}
